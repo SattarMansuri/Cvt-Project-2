@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 180vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: #6F6AF7;
+    position: fixed;
+    top: 0%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+input{
+    border-radius: 19px ;
+    border: 10px;
+    height: 6vh;
+    width: 12vw;
+}
+
+.logo{
+    font-size: 3rem;
+    font-family: monospace;
+    
+
+}
+
+.R-nav{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+.vector{
+    height: 6vh;
+    width: 3vw;
+    align-self: baseline
+}
+
+.main{
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15vh;
+}
+
+.image{
+    height: 55vh;
+    width:30vw;
+}
+
+.R-main{
+    height: 50vh;
+    width:50vw;
+    padding: 20px;
+    border-radius: 20px;
+    border: 6px solid #FFF;
+    background: #E5D8FF;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #6F7373;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+img{
+    height: 6vh;
+    width:4vw;
+    
+}
+
+.handles{
+    position: fixed;
+    top: 80px;
+    margin-top: 25vh;
+    float: right;
+    display: block;
+    right: 0%;
+}
+
+.mid{
+    height: 25vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #FFF;
+    font-family: DM Sans;
+    font-weight: 700;
+}
+
+.first{
+    height: 12vh;
+    width: 20vw;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+
+}
+
+.second{
+    height: 12vh;
+    width:20vw;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.third{
+    height: 12vh;
+    width:20vw;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.fourth{
+    height: 12vh;
+    width:20vw;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+}
+
+.foot{
+    height: 70vh;
+    width: 90vw;
+    background: #483EFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    place-self: center;
+    border-radius: 19px;
+    margin-bottom: 10vh;
+}
+
+.L_foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.info{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFF;
+    font-family: DM Sans;
+    font-weight: 700;
+    background: #BCE0F6;
+    border-radius: 22px;
+    border: 5px solid #FFF;
+    height: 13vh;
+    width: 20vw;
+    flex-shrink: 0;
+}
+
+.book{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFF;
+    font-family: DM Sans;
+    font-weight: 700;
+    border-radius: 22px;
+    border: 5px solid #FFF; 
+    height: 13vh;
+    width:20vw;
+}
+
+.setting{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFF;
+    font-family: DM Sans;
+    font-weight: 700;
+    border-radius: 22px;
+    border: 5px solid #FFF;
+    height: 13vh;
+    width:20vw;
+}
+
+.R_foot{
+    height: 55vh;
+    width:60vw;
+    border-radius: 19px;
+    border: 3px solid #FFF;
+    background: white;
+    color: #04285A;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 700;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    place-self: center;
+    padding: 20px 30px;
+    
+}
+
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.105em;
+    color: #04285A;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 6px;
+    right: 10px;
+    bottom: 30px;
+    float: right;
+}
+
+.contact img{
+    width: 120px;
+    height: 120px;
+}
+
+.contact{
+    position: fixed;
+    right: 60px;
+    bottom: 50px;
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+}
